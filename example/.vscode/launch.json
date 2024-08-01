@@ -1,0 +1,15 @@
+{
+  "version": "0.3.0",
+  "configurations": [
+    {
+      "name": "Debug with Minecraft",
+      "type": "minecraft-js",
+      "request": "attach",
+      "mode": "listen",
+      "port": 19144,
+      "localRoot": "${workspaceFolder}/BP/scripts/",
+      "targetModuleUuid": "dc9f676b-3b76-4fa1-9a4b-063743d11728",
+      "sourceMapRoot": "%localappdata%/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_behavior_packs/Chroma Library Example BP/scripts"
+    }
+  ]
+}

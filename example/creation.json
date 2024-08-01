@@ -1,0 +1,20 @@
+{
+  "type": "addon",
+  "target": "stable",
+  "behavior_pack": {
+    "directories": {
+      "source": "BP",
+      "build": "build/BP",
+      "development": "minecraft:/development_behavior_packs/Chroma Library Example BP"
+    },
+    "generate_contents": true,
+    "scripts": {
+      "entry": "index.ts",
+      "bundle": true,
+      "dependencies": {
+        "@minecraft/common": "^1.1.0",
+        "@minecraft/server": "^1.11.0"
+      }
+    }
+  }
+}

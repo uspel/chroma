@@ -1,0 +1,12 @@
+{
+  "type": "script_library",
+  "target": "stable",
+  "directories": {
+    "source": "src",
+    "development": "example/BP/scripts/node_modules/chroma",
+    "build": "build"
+  },
+  "entries": ["index.ts"],
+  "bundle": true,
+  "dependencies": {}
+}
