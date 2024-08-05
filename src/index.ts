@@ -19,8 +19,8 @@ class Chroma {
   constructor(formatting: TextFormatOptions = {}) {
     this.formatting = formatting;
 
-    function format(...text: string[]) {
-      return formatText(text.join(" "), chroma.formatting);
+    function format(this: Chroma, ...text: string[]) {
+      return formatText(text.join(" "), this.formatting);
     }
 
     return makeCallable(this, format);
